@@ -15,33 +15,29 @@
     <link rel="stylesheet" href="style.css" />
     <title>About me</title>
   </head>
-  <body>
+  <body class="body">
     <div id="top"></div>
     <!-- main header -->
     <header class="header">
       <h1 class="main-title">CAT MILLER</h1>
       <nav class="nav">
-        <a class="navlink" href="#contact">Contact</a>
-        <a class="navlink" href="#biography">Biography</a>
+        <a class="navlink" href="#contact">CONTACT</a>
+        <a class="navlink" href="#biography">BIOGRAFY</a>
       </nav>
     </header>
     <!-- main content -->
     <main>
-      <div class="portrait">
-        <div>
-          <img
-            width="200px"
-            src="images/PortraitSocialMedia.jpg"
-            alt="Portrait of Carolin Möller"
-          />
-        </div>
-        <div>
-          <p>This is me, an aspiring web developer.</p>
-        </div>
-      </div>
+      <figure class="portrait">
+        <img
+          class="portrait-img"
+          src="images/PortraitSocialMedia.jpg"
+          alt="Portrait of Carolin Möller"
+        />
+        <figcaption>This is me, an aspiring web developer.</figcaption>
+      </figure>
 
       <section class="interests">
-        <h2>My Interests</h2>
+        <h2 class="segment-headings">My Interests</h2>
         <div class="tags">
           <span>Gardening</span>
           <span>Knitting</span>
@@ -52,7 +48,7 @@
       </section>
 
       <section class="interests">
-        <h2>My Skills</h2>
+        <h2 class="segment-headings">My Skills</h2>
         <div class="tags">
           <span>Gardening</span>
           <span>Knitting</span>
@@ -89,7 +85,7 @@
       </div>
       <div class="about">
         <div class="personal">
-          <div><h2 id="biography">About Me</h2></div>
+          <div><h2 class="segment-headings" id="biography">About Me</h2></div>
           <div>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -99,28 +95,23 @@
             </p>
           </div>
         </div>
+
         <div class="personal">
-          <table>
-            <thead>
-              <tr>
-                <th colspan="2"><h2>CV</h2></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>since 03.2022</td>
-                <td>Trainee neuefische</td>
-              </tr>
-              <tr>
-                <td>01.2020-12.2021</td>
-                <td>Illustration</td>
-              </tr>
-              <tr>
-                <td>2018-12.2019</td>
-                <td>Parental Leave</td>
-              </tr>
-            </tbody>
-          </table>
+          <h2 class="segment-headings">CV</h2>
+          <dl class="dl">
+            <div class="col">
+              <dt class="table-element dt">since 03.2022</dt>
+              <dd class="table-element">Trainee bei neuefische</dd>
+            </div>
+            <div class="col">
+              <dt class="table-element dt">01.2020 - 12.2021</dt>
+              <dd class="table-element">Illustration</dd>
+            </div>
+            <div class="col">
+              <dt class="table-element dt">04.2014 - 06.2018</dt>
+              <dd class="table-element">Digital Retouch</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </main>
