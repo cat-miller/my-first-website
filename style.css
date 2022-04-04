@@ -11,7 +11,7 @@
   font-size: 18px;
   background-color: rgb(123, 28, 248);
   color: rgb(250, 80, 179);
-  width: 900px;
+  max-width: 900px;
 }
 
 .header {
@@ -100,7 +100,7 @@ a:hover {
 
   font-family: monospace;
   box-shadow: 3px 4px rgb(250, 80, 179);
-  width: 867px;
+  max-width: 867px;
 }
 
 .socialcontainer {
@@ -116,7 +116,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  width: 420px;
+  max-width: 350px;
   height: 200px;
   margin: 25px 0px 0px 0px;
 
@@ -133,12 +133,14 @@ a:hover {
 
 .socialdescrib {
   padding: 9px 0 0;
+  max-width: 150px;
+  text-align: start;
 }
 
 h3 {
-  padding: 0px 40px 0px 40px;
   font-family: "Press Start 2P", cursive;
   font-size: 18px;
+  text-align: start;
 }
 
 .about {
